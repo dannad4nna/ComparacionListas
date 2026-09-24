@@ -8,7 +8,7 @@
 Comparar experimentalmente `ArrayList` y `LinkedList` en acceso, inserción,
 eliminación y recorrido, y justificar cuándo usar cada una.
 
-## 2. Tiempos obtenidos
+
 
 ### 2.1 Acceso con `get(i)` (N = 100,000)
 
@@ -35,7 +35,7 @@ lento fue `get(i)` en LinkedList, y por qué.)
 
 ## 3. Inserciones y eliminaciones
 
-**Hipótesis (escrita antes de ejecutar):** ___
+
 
 | Operación             | ArrayList (ms) | LinkedList (ms) |
 |-----------------------|----------------|-----------------|
@@ -43,7 +43,7 @@ lento fue `get(i)` en LinkedList, y por qué.)
 | Insertar al final (100,000) | 7.824          | 3.718           |
 | Eliminar al inicio (100,000)| 657.774        | 8.903           |
 
-**Análisis:** ___ (¿se cumplió tu hipótesis? ¿por qué?)
+
 
 ## 4. Tabla comparativa final
 
@@ -71,8 +71,6 @@ Se implementó en tres versiones:
 2. `List` con `LinkedList` (solo cambió la línea de creación)
 3. `Deque` con `LinkedList` (`addFirst`, `addLast`, `peekFirst`, `pollFirst`)
 
-___ (Explica en 3-4 líneas qué diferencias encontraste y por qué `Deque`
-es mejor diseño para este problema.)
 
 ## 6. Respuestas a las preguntas de análisis
 
