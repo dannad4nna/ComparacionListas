@@ -28,10 +28,8 @@ eliminación y recorrido, y justificar cuándo usar cada una.
 | 3         | 11.288         | 4.867           |
 | Promedio  | 11.381         | 4.443           |
 
-### 2.3 Comparación `get(i)` vs `for-each`
 
-___ (3-4 líneas: cuál fue más rápido en cada lista, cuántas veces más
-lento fue `get(i)` en LinkedList, y por qué.)
+
 
 ## 3. Inserciones y eliminaciones
 
